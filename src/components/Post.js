@@ -10,7 +10,7 @@ const Post = (props) => {
                     {props.userName}
                 </h3>
             </div>    
-            <img className="post__img" alt={props.alt} src={props.image} />
+            <img className="post__img" src={props.image} />
             <h4 className="post__caption"><span className="post--caption--name">{props.userName} </span>{props.caption}</h4>
         </div>
     )
